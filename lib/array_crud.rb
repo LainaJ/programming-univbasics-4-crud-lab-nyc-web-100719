@@ -1,9 +1,8 @@
 def create_an_empty_array
-  dogs_array= []
+  []
 end
 
 def create_an_array
-dogs_array= ["Senna", "Chewy", "Rooney", "Timber"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,7 +10,6 @@ dogs_array << "Bella"
 end
 
 def add_element_to_start_of_array(array, element)
-dogs_array.unshift("Reese")
 end
 
 def remove_element_from_end_of_array(array)
